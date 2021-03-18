@@ -39,17 +39,27 @@ def xy(count):
     "Convert tiles count to (x, y) coordinates."
     return (count % 8) * 50 - 200, (count // 8) * 50 - 200
 
+contador = 0;
 def tap(x, y):
+    global contador
+    
     "Update mark and hidden tiles based on tap."
     spot = index(x, y)
     mark = state['mark']
 
     if mark is None or mark == spot or tiles[mark] != tiles[spot]:
         state['mark'] = spot
+         
     else:
         hide[spot] = False
         hide[mark] = False
         state['mark'] = None
+
+    if spot == spot and mark==mark:
+        contador = contador+1
+        print (contador)
+
+    
 
 def draw():
     "Draw image and tiles."
