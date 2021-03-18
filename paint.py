@@ -1,4 +1,8 @@
 """Paint, for drawing shapes.
+Team 3: 
+Carolina Ortega 
+Yossi Khebzou
+Alejandro Gaviria
 
 Exercises
 
@@ -41,10 +45,10 @@ def circle(start, end):
     begin_fill()
 
     fillcolor("pink")
-    radius= 50
+    radius= 50 #Set the size of the radius for the circle
     #circle(radius)
-    t.circle(radius)
-    t.left(90)
+    t.circle(radius) #Command circle paints circle with turtle
+    t.left(90) #Turn of 90 degrees to the left while circle is colored
     end_fill()
 
 
