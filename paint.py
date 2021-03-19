@@ -7,13 +7,14 @@ Alejandro Gaviria
 Exercises
 
 1. Add a color.
-2. Complete circle.
+2. Complete circle
 3. Complete rectangle.
 4. Complete triangle.
 5. Add width parameter.
 
 """
-import turtle as t
+
+import turtle
 from turtle import *
 from freegames import vector
 
@@ -47,8 +48,8 @@ def circle(start, end):
     fillcolor("pink")
     radius= 50 #Set the size of the radius for the circle
     #circle(radius)
-    t.circle(radius) #Command circle paints circle with turtle
-    t.left(90) #Turn of 90 degrees to the left while circle is colored
+    turtle.circle(radius) #Command circle paints circle with turtle
+    turtle.left(90) #Turn of 90 degrees to the left while circle is colored
     end_fill()
 
 
@@ -56,9 +57,21 @@ def circle(start, end):
 def rectangle(start, end):
     "Draw rectangle from start to end."
     pass  # TODO
-
+ 
+    begin_fill()
+    turtle.forward(100)
+    turtle.left(90)
+    turtle.forward(50)
+    turtle.left(90)
+    turtle.forward(100)
+    turtle.left(90)
+    turtle.forward(50)
+    turtle.left(90)
+    end_fill()
+    penup()
 def triangle(start, end):
     "Draw triangle from start to end."
+	
     pass  # TODO
 
 def tap(x, y):
@@ -98,5 +111,7 @@ onkey(lambda: store('shape', square), 's')
 onkey(lambda: store('shape', circle), 'c')
 onkey(lambda: store('shape', rectangle), 'r')
 onkey(lambda: store('shape', triangle), 't')
+onkey(lambda: color('orange'), 'O')
+onkey(lambda: color('cyan'),'A')
 done()
 
