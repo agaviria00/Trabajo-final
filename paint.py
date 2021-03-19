@@ -113,5 +113,6 @@ onkey(lambda: store('shape', rectangle), 'r')
 onkey(lambda: store('shape', triangle), 't')
 onkey(lambda: color('orange'), 'O')
 onkey(lambda: color('cyan'),'A')
+onkey(lambda: color('magenta'), 'M')
 done()
 
