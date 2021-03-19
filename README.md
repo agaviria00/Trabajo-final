@@ -11,14 +11,7 @@ Alejandro Gaviria
 - [Terminal](#terminal).
 - [Git/Github](#git-y-github).
 - [Evidencia de proyecto](#evidencia).
-- [insertar imágenes](#insertar-imagenes).
-- [Insertar enlaces](#insertar-enlaces).
-- [Hacer anclaje](#hacer-anclaje).
-- [Insertar una línea de código](#insertar-una-linea-de-codigo).
-- [Insertar un bloque de código](#insertar-un-bloque-de-codigo).
-- [Resaltar el código](#resaltar-el-codigo).
-- [Insertar tablas](#insertar-tablas).
-- [Otras referencias sobre Markdown](#otras-referencias-sobre-markdown).
+
 
 ## Aprendizajes durante la semana
 ### Terminal 
